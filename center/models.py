@@ -10,7 +10,7 @@ class Center(models.Model):
         return self.name
 
 
-class State(models.Model):
+class Storage(models.Model):
     center = models.ForeignKey(Center, on_delete=models.CASCADE)
     vaccine = models.ForeignKey(Vaccine, on_delete=models.CASCADE)
     total_quantity = models.IntegerField(default=0)

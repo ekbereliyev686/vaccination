@@ -4,4 +4,4 @@ from .models import *
 
 # Register your models here.
 admin.site.register(Center)
-admin.site.register(State)
+admin.site.register(Storage)
